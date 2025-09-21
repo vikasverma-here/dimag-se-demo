@@ -39,12 +39,14 @@ import AiGirlFriend from './Components/AiGirlFriend'
 import TradeChart from './Components/TradeChart'
 // import Uis from './Components/Uis'
 import UniVersalCountdown from './Components/UniVersalCountdown'
+import PaypalFee from './Components/PaypalFee'
 
 const componentList = [
   { id: 1, label: "AI Girlfriend", element: <AiGirlFriend /> },
   { id: 2, label: "Trade Chart", element: <TradeChart /> },
   // { id: 3, label: "React Mini Components", element: <Uis/> },
-  { id: 4, label: "CalculateCountDown", element: <UniVersalCountdown/> }
+  { id: 4, label: "CalculateCountDown", element: <UniVersalCountdown/> },
+  { id: 5, label: "PayPal Fee Strucutre", element: <PaypalFee/> }
 ]
 
 const Layout = () => {
